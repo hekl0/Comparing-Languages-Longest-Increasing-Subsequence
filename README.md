@@ -7,7 +7,7 @@
 ### Languages Implemented:
 - [x] Ada
 - [ ] Ocaml
-- [ ] Python
+- [x] Python
 - [x] Go
 - [ ] Prolog
 
