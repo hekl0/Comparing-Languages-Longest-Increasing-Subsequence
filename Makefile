@@ -7,5 +7,8 @@ Go:
 Ada:
 	gnatmake a1.adb && ./a1 < input.txt
 
+Prolog:
+	swipl -q -l a1.pl
+
 clean:
 	rm a1 a1.ali a1.o a1.out
