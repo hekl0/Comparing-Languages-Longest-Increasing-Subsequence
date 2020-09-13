@@ -44,4 +44,12 @@ let rec lis nums =
   
   print_list (List.rev !res);;
 
-lis([19; 3; 11; 7; 15; 12; 4; 12; 8; 16]);;
+let main() =
+  let n = read_int() and nums = ref[] in
+  for i = 0 to n - 1 do
+    let num = read_int() in
+    nums := !nums@[num];
+  done;
+  lis !nums;;
+
+let _ = main()
