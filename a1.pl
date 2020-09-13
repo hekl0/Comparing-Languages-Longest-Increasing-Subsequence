@@ -35,3 +35,22 @@ find_lis([H|T], [CH|CT], R):-
     find_lis(T, [H, CH|CT], Y),
     find_max(X, Y, A), 
     R = A.
+
+write_list([]) :- 
+	nl.
+
+write_list([H|T]) :-
+    format('~w ', [H]),
+    write_list(T).
+
+read_number(N) :-
+	read(N),
+	integer(N).
+
+main :-
+	read_number(N),
+	N > 0,
+	length(L, N),
+	maplist(read_number, L),
+	lis(L, ML),
+	write_list(ML).
