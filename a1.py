@@ -29,6 +29,6 @@ def lis(nums):
     return res[::-1]
 
 
-# nums = [int(num) for num in input().split(' ')]
-# print(lis(nums))
-print(lis([19, 3, 11, 7, 15, 12, 4, 12, 8, 16]))
+nums = [int(num) for num in input().split(' ')]
+print(lis(nums))
+# print(lis([19, 3, 11, 7, 15, 12, 4, 12, 8, 16]))
