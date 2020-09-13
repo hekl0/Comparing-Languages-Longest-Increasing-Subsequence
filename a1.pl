@@ -9,7 +9,7 @@ lis(X, Y) :-
 	aggregate(max(Leng, S), (find_lis(X, [], S), length(S, Leng)), max(_, R)),
 	reverse_list(R, Y).
  
-% Base case
+% Base case with no element
 find_lis([], X, X).
  
 % Current element is H, and the rest is T
