@@ -49,5 +49,6 @@ Prolog:
     - However, it's still a good practice for recursion thinking.
 - Run:
     - Compile with swipl -q -l a1.pl
-    - Enter length of the array n and a dot: n.
+    - Enter: main.
+    - Enter length n of the array n and a dot: n.
     - For each n subsequent lines, enter an element of an array in with a dot.
