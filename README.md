@@ -16,7 +16,7 @@
 - [x] Use dynamic programming to optimize the asymptotic run time of your programs (already required for at least one program in 454). *(Complexity: O(Nlog(N)), Algorithm Fenwick Tree)*
 - [ ] Prove that any sequence of n2+1 distinct integers has either an increasing or a decreasing subsequence of length n+1. 
 - [x] Modify one or more of your programs to output all longest increasing subsequences. *(C++ program will print all solutions)*
-- [ ] For Prolog, Python, OCaml, and/or Scheme, modify your programs to read from standard input, rather than the interpreter prompt. 
+- [x] For Prolog, Python, OCaml, and/or Scheme, modify your programs to read from standard input, rather than the interpreter prompt. 
 
 ### Run & tesing
 Write input to file `input.txt` and run with `Makefile`:
