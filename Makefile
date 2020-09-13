@@ -10,5 +10,11 @@ Ada:
 Prolog:
 	swipl -q -l a1.pl
 
+Python:
+	python a1.py
+
+Ocaml:
+	ocaml a1.ml
+
 clean:
 	rm a1 a1.ali a1.o a1.out
