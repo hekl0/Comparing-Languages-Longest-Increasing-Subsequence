@@ -3,7 +3,6 @@ def bs(x, nums):
     hi = len(nums) - 1
     while lo <= hi:
         mid = (lo + hi) >> 1
-        print(mid)
         if nums[mid] >= x:
             hi = mid - 1
         else:
@@ -30,5 +29,6 @@ def lis(nums):
     return res[::-1]
 
 
-nums = [int(num) for num in input().split(' ')]
-print(lis(nums))
+# nums = [int(num) for num in input().split(' ')]
+# print(lis(nums))
+print(lis([19, 3, 11, 7, 15, 12, 4, 12, 8, 16]))
