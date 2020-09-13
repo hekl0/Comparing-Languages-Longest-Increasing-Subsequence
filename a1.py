@@ -3,6 +3,7 @@ def bs(x, nums):
     hi = len(nums) - 1
     while lo <= hi:
         mid = (lo + hi) >> 1
+        print(mid)
         if nums[mid] >= x:
             hi = mid - 1
         else:
