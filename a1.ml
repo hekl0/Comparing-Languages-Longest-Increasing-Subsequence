@@ -16,7 +16,8 @@ let rec bs x nums =
   done;
   !lo;;
 
-let replace l pos a  = List.mapi (fun i x -> if i = pos then a else x) l;;
+let replace l pos a  = 
+  List.mapi(fun i x -> if i = pos then a else x) l;;
 
 let rec print_list = function
 [] -> ()
