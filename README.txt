@@ -10,19 +10,23 @@ Extra Credit Work:
 - Modify one program to print all LIS: C++
 
 Ada:
-- Complexity O(n*logn)
+- Complexity O(n*logn) using fenwick tree
+- Limitation: maximun number is 10^5
 - Run:
     + With Makefile: enter the list in file input.txt and run make Ada
     + Manually: gnatmake a1.adb to compile, and run with ./a1, input the list in the terminal
 
 Go:
-- Complexity: O(n*logn)
+- Complexity O(n*logn) using fenwick tree
+- Limitation: maximun number is 10^5
 - Run:
     + With Makefile: enter the list in file input.txt and run make Go
     + Manually: go run a1.go and then input the list in the terminal
 
 C++:
-- Complexity: O(n*logn*number of LIS)
+- Complexity: O(n*logn*number of LIS) using fenwick tree
+- Will print out all possible LIS
+- Limitation: maximun number is 10^5
 - Run:
     + With Makefile: enter the list in file input.txt and run make C++
     + Manually: g++ -o a1.out a1.cpp to compile, and run with ./a1.out, input the list in the terminal
