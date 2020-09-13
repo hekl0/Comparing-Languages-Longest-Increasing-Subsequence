@@ -9,7 +9,7 @@
 - [x] Ocaml
 - [x] Python
 - [x] Go
-- [ ] Prolog
+- [X] Prolog
 
 ### Extra Credit:
 - [x] Try some other languages—from the lists above or beyond.  Java or C++ would be interesting. *(Add C++ program)*
