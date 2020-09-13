@@ -23,5 +23,7 @@ Write input to file `input.txt` and run with `Makefile`:
 - Run C++ program: `make C++`
 - Run Go program: `make Go`
 - Run Ada program: `make Ada`
+- Run Ocaml program: `make Ocaml`
+- Run Python program: `make python`
 
 Run `make clean` to clean object files.
