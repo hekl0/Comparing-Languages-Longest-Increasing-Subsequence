@@ -8,6 +8,7 @@ Extra Credit Work:
 - Try other language: C++
 - Use dynamic programming (Complexity O(N*logN)): Go, C++, Ada, Python
 - Modify one program to print all LIS: C++
+- Modify Prolog, Python, and Ocaml programs to read from standard input, rather than the interpreter prompt.
 
 Ada:
 - Complexity O(n*logn) using fenwick tree

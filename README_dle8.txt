@@ -4,9 +4,55 @@ StudentID: 30677753
 
 Partner: Loc Bui (lbui3)
 
-Work:
-- Implement 3 languages: Python, Ocaml, Prolog
-- Implement an O(nlogn) solution for Python
+Extra Credit Work:
+- Try other language: C++
+- Use dynamic programming (Complexity O(N*logN)): Go, C++, Ada, Python
+- Modify one program to print all LIS: C++
+- Modify Prolog, Python, and Ocaml programs to read from standard input, rather than the interpreter prompt.
+
+Ada:
+- Complexity: O(n*logn) using fenwick tree
+- Idea: 
+    - In order to have O(nlogn) complexity for this problem, we use fenwick tree data structure.
+    Denote f[i]: the max leng of the sequence that ends with number i. For each number x, use 
+    fenwick tree get max(f[j]) to get the maximum value of the length a sequence from all j < x,
+    and update f[x] = max(f[j] + 1) back to the fenwick tree data structure.
+- Limitation: 
+    - maximun number is 10^5 due to fenwick tree
+- Compare & contrast: 
+    - Ada is similar to Pascal so it is pretty easy for me to implement the algorithm.
+- Run:
+    + With Makefile: enter the list in file input.txt and run make Ada
+    + Manually: gnatmake a1.adb to compile, and run with ./a1, input the list in the terminal
+
+Go:
+- Complexity: O(n*logn) 
+- Idea:
+    - Using the same idea with Ada
+- Limitation: 
+    - maximun number is 10^5 due to fenwick tree
+- Compare & contrast: 
+    - Golang is fairly easy to implemented & debugged.
+- Run:
+    + With Makefile: enter the list in file input.txt and run make Go
+    + Manually: go run a1.go and then input the list in the terminal
+
+C++:
+- Complexity: O(n* logn *number of LIS) 
+- Will print out all possible LIS
+- Idea: 
+    - This implementation use the fenwickt tree again. Let's f[i] be the tuple of max leng 
+    of the sequence that ends with number i and the list of all the sequence with leng equal 
+    max leng that ends with number i, for each number x, use fenwick tree to get max(f[j]) 
+    with j=1->x-1, and update f[x] according to f[j]
+- Limitation: 
+    - maximun number is 10^5 due to fenwick tree
+- Compare & contrast: 
+    - C++ version is easiest to implemented compared to other languages.
+- Run:
+    + With Makefile: enter the list in file input.txt and run make C++
+    + Manually: g++ -o a1.out a1.cpp to compile, and run with ./a1.out, input the list in the terminal
+
 
 Python:
 - Complexity: O(n * logn)
