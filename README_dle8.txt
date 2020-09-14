@@ -11,7 +11,7 @@ Extra Credit Work:
 - Modify one imperative program to print all LIS: C++
 - Modify Prolog, Python, and Ocaml programs to read from standard input, rather than the interpreter prompt.
 
-Ada:
+Ada (Partner's work):
 - Complexity: O(n*logn) using fenwick tree
 - Idea: 
     - In order to have O(nlogn) complexity for this problem, we use fenwick tree data structure.
@@ -23,10 +23,10 @@ Ada:
 - Compare & contrast: 
     - Ada is similar to Pascal so it is pretty easy for me to implement the algorithm.
 - Run:
-    + With Makefile: enter the list in file input.txt and run make Ada
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make Ada
     + Manually: gnatmake a1.adb to compile, and run with ./a1, input the list in the terminal
 
-Go:
+Go (Partner's work):
 - Complexity: O(n*logn) 
 - Idea:
     - Using the same idea with Ada
@@ -35,10 +35,10 @@ Go:
 - Compare & contrast: 
     - Golang is fairly easy to implemented & debugged.
 - Run:
-    + With Makefile: enter the list in file input.txt and run make Go
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make Go
     + Manually: go run a1.go and then input the list in the terminal
 
-C++:
+C++ (Partner's work):
 - Complexity: O(n* logn *number of LIS) 
 - Will print out all possible LIS
 - Idea: 
@@ -51,29 +51,29 @@ C++:
 - Compare & contrast: 
     - C++ version is easiest to implemented compared to other languages.
 - Run:
-    + With Makefile: enter the list in file input.txt and run make C++
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make C++
     + Manually: g++ -o a1.out a1.cpp to compile, and run with ./a1.out, input the list in the terminal
 
 
-Python:
+Python (My work):
 - Complexity: O(n * logn)
 - Idea:
-    - We maintain an array bucket in the meaning that bucket[i] is the smallest element in which
-    an longest increasing subsequence of length i ends with. For each element nums[i] in the array, 
-    we will perform an binary search on the bucket array to see that position is fit for it. We can
-    do this since, by our definition of the bucket array, the bucket array elements is sorted 
-    in ascend. 
+    - Use dynamic programming for Python version. We maintain an array bucket in the meaning that 
+    bucket[i] is the smallest element in which an longest increasing subsequence of length i ends 
+    with. For each element nums[i] in the array,  we will perform an binary search on the bucket 
+    array to see that position is fit for it. We can do this since, by our definition of the bucket 
+    array, the bucket array elements is sorted in ascend. 
 - Compare & contrast: 
     - In comparison to Ocaml and Prolog, this algorithm is fairly easy to implement and debug. Code is 
     very concise because of Python syntax and support of while and for loop.
 - Run:
     - Modify the list directly in a1.py and compile & run with "python a1.py", assuming python version 3.
 
-Ocaml:
+Ocaml (My work):
 - Complexity: O(n * n * log(n))
 - Idea:
-    - For Ocaml implementation, I use the same algorithm used for Python version. However, since
-    accessing a certain index in a Ocaml list cost O(n), the complexity is larger. 
+    - For Ocaml implementation, I use the same dynamic programming algorithm used for Python version.
+    However, since accessing a certain index in a Ocaml list cost O(n), the complexity is larger. 
 - Compare & contrast:
     - In comparison to Python, Ocaml version is a little bit harder to implement (mostly because of
     the unfamiliarity for the language). However, it's a good exercise to practice recursion thinking.
@@ -83,7 +83,7 @@ Ocaml:
     - Compile with ocaml a1.ml
     - Enter length of the array n, and subsequently on each line, enter an element of the array
     
-Prolog:
+Prolog (My work):
 - Complexity: O(2^n)
 - Idea:
     - using brute force, with an idea that for each element, there's an option to include
