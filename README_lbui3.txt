@@ -9,7 +9,7 @@ Extra Credit Work:
 - Use dynamic programming for imperative langs: Go, C++, Ada, Python
 - Use dynamic programming for functional lang: Ocaml
 - Modify one imperative program to print all LIS: C++
-- Modify Python programs to read from standard input, rather than the interpreter prompt: python
+- Modify programs to read from standard input, rather than the interpreter prompt: python, Prolog, Ocaml
 
 Ada (My work):
 - Complexity O(n*logn) using fenwick tree
@@ -19,7 +19,7 @@ Ada (My work):
 - Limitation: maximun number is 10^5 due to fenwick tree
 - Compare & contrast: Ada is similar to Pascal so it is pretty easy for me to implement the algorithm.
 - Run:
-    + With Makefile: enter the list in file input.txt and run make Ada
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make Ada
     + Manually: gnatmake a1.adb to compile, and run with ./a1, input the list in the terminal
 
 Go (My work):
@@ -30,7 +30,7 @@ Go (My work):
 - Limitation: maximun number is 10^5 due to fenwick tree
 - Compare & contrast: I have decent experience with Go so I can implement the algorithm easily
 - Run:
-    + With Makefile: enter the list in file input.txt and run make Go
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make Go
     + Manually: go run a1.go and then input the list in the terminal
 
 C++ (My work):
@@ -43,7 +43,7 @@ C++ (My work):
 - Limitation: maximun number is 10^5 due to fenwick tree
 - Compare & contrast: I have decent experience with C++ so I can implement the algorithm easily
 - Run:
-    + With Makefile: enter the list in file input.txt and run make C++
+    + With Makefile: enter the list in file input.txt (please put an end line character at the end of the list) and run make C++
     + Manually: g++ -o a1.out a1.cpp to compile, and run with ./a1.out, input the list in the terminal
 
 Python (Partner's work):
