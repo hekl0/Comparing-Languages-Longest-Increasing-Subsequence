@@ -7,8 +7,8 @@ Partner: Dung Le (dle8)
 Extra Credit Work:
 - Try other language: C++
 - Use dynamic programming for imperative langs: Go, C++, Ada, Python
-- Use dynamic programmingfor functional lang: Ocaml
-- Modify one imprative program to print all LIS: C++
+- Use dynamic programming for functional lang: Ocaml
+- Modify one imperative program to print all LIS: C++
 - Modify Python programs to read from standard input, rather than the interpreter prompt: python
 
 Ada (My work):

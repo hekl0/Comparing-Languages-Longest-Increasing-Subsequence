@@ -6,8 +6,9 @@ Partner: Loc Bui (lbui3)
 
 Extra Credit Work:
 - Try other language: C++
-- Use dynamic programming (Complexity O(N*logN)): Go, C++, Ada, Python
-- Modify one program to print all LIS: C++
+- Use dynamic programming for imperative langs: Go, C++, Ada, Python
+- Use dynamic programming for functional lang: Ocaml
+- Modify one imperative program to print all LIS: C++
 - Modify Prolog, Python, and Ocaml programs to read from standard input, rather than the interpreter prompt.
 
 Ada:
